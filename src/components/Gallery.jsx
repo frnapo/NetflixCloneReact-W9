@@ -65,7 +65,7 @@ class Gallery extends Component {
                   style={{ width: "400px", height: "100px", objectFit: "cover" }}
                 />
                 {/*<h6>{movie.Title}</h6>*/}
-                {/* Ho passato anche il titolo giusto per far vedere qualcosa ma è molto più bello e minimal senza, perciò lo commenterò */}
+                {/* Ho passato anche il titolo giusto per far vedere qualcosa in più ma è molto più bello e minimal senza, perciò lo commenterò */}
               </Col>
             ))
           )}

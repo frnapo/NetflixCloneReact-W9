@@ -13,3 +13,12 @@
 .link-hover:hover {
   color: white !important; /*dovuto usarlo per forza per i link del footer*/
 }
+
+/* per pagina settings */
+.no-border-listgroup .list-group-item {
+  border: none;
+}
+
+.no-underline-link a {
+  text-decoration: none;
+}
