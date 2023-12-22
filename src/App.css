@@ -1,38 +1,15 @@
-.App {
-  text-align: center;
+.hover-zoom:hover {
+  transform: scale(1.2);
+  transition: transform 0.1s ease-in-out;
+  cursor: pointer;
 }
+/*hover sui film come avevo fatto sul primo netflix e sl menu'*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dark-background {
+  background-color: #141414;
 }
+/*colore di netflix, volevo integrare sass e cambiare la variabile come fatto nel primo progetto, ma per risparmiare tempo ho preferito questa soluzione*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-hover:hover {
+  color: white !important; /*dovuto usarlo per forza per i link del footer*/
 }

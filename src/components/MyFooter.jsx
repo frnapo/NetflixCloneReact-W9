@@ -7,17 +7,17 @@ const Footer = () => {
     <footer className="mt-5 mx-5">
       <Container>
         <Row>
-          <Col xs={12} lg={3} className="d-flex justify-content-center p-0 mb-3" id="bootstrap-icons">
-            <Button variant="link" className="text-white text-decoration-none fs-4">
+          <Col xs={12} lg={3} xl={2} className="d-flex justify-content-center p-0 mb-3" id="bootstrap-icons">
+            <Button variant="link" className="text-secondary text-decoration-none fs-4 link-hover">
               <Facebook />
             </Button>
-            <Button variant="link" className="text-white text-decoration-none fs-4">
+            <Button variant="link" className="text-secondary text-decoration-none fs-4 link-hover">
               <Instagram />
             </Button>
-            <Button variant="link" className="text-white text-decoration-none fs-4">
+            <Button variant="link" className="text-secondary text-decoration-none fs-4 link-hover">
               <Twitter />
             </Button>
-            <Button variant="link" className="text-white text-decoration-none fs-4">
+            <Button variant="link" className="text-secondary text-decoration-none fs-4 link-hover">
               <Youtube />
             </Button>
           </Col>
@@ -26,22 +26,22 @@ const Footer = () => {
           <Col md={6} lg={3} className="p-0">
             <ul className="list-unstyled">
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Audio and Subtitles
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Media Center
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Privacy
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Contact Us
                 </Button>
               </li>
@@ -50,17 +50,17 @@ const Footer = () => {
           <Col md={6} lg={3} className="p-0">
             <ul className="list-unstyled">
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Audio Description
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Investor Relations
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Legal Notices
                 </Button>
               </li>
@@ -69,17 +69,17 @@ const Footer = () => {
           <Col md={6} lg={3} className="p-0">
             <ul className="list-unstyled">
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Help Center
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Jobs
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Cookie Preferences
                 </Button>
               </li>
@@ -88,17 +88,17 @@ const Footer = () => {
           <Col md={6} lg={3} className="p-0">
             <ul className="list-unstyled">
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Gift Cards
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Terms of Use
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="text-white text-decoration-none">
+                <Button variant="link" className="text-secondary text-decoration-none link-hover">
                   Corporate Information
                 </Button>
               </li>

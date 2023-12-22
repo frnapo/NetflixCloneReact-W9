@@ -25,10 +25,10 @@ const TopBar = () => {
           </Dropdown>
         </Col>
         <Col className="d-flex justify-content-end">
-          <Button variant="dark">
+          <Button variant="dark" className="dark-background border-0">
             <List />
           </Button>
-          <Button variant="dark" className="ms-2">
+          <Button variant="dark" className="ms-2 dark-background border-0">
             <ThreeDots />
           </Button>
         </Col>
